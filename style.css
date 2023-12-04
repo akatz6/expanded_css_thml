@@ -1,0 +1,52 @@
+form {
+  width: 80vw;
+  margin: 5% auto;
+  /* height: 100vh; */
+}
+
+.flex {
+  width: calc(10vw + 100px);
+  height: 200px;
+  margin: 2% 5%;
+}
+
+.flex:nth-child(even) {
+  border: 20px solid maroon;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
+
+.green {
+  background-color: green;
+}
+.divFlex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+button:hover{
+  background-color: yellow !important;
+}
+
+@media screen and (max-width: 800px) {
+  .flex {
+    width: 100px;
+    height: 100px;
+    margin: 1% 2%;
+  }
+}
